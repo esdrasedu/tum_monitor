@@ -1,0 +1,31 @@
+/* This file is for your main application css. */
+
+@import "./phoenix.css";
+@import "../../deps/phoenix_live_view/assets/css/live_view.css";
+
+header {
+  background: #4C1372;
+}
+
+pre {
+  border-left: 0.3rem solid #4C1372;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 60rem;
+}
+
+.container {
+  max-width: 100%
+}
+
+.highlight {
+  color: #9900ff;
+}
+
+.hide {
+  display: none;
+}
